@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Somos - Nossa Empresa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <style>  
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #f5f5f5;
+        }
+
+        /* Cabeçalho */
+        /*
+        header {
+            background-color: #db5f9b;
+            color: #5F0D1B;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        */
+
+        /* Seções */
+        .section {
+            padding: 40px 0;
+            background-color: #fff;
+            margin: 20px 0;
+            transition: background-color 0.3s ease;
+        }
+
+        .highlight {
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #5F0D1B;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #5F0D1B;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #5F0D1B;
+        }
+
+        ul li strong {
+            color: #5F0D1B;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #db5f9b;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1em;
+        }
+
+        footer .reference {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #ecf0f1;
+        }
+
+
+        /* Responsividade */
+        @media screen and (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            nav ul li a {
+                font-size: 1.5em;
+            }
+
+            .section {
+                padding: 20px 0;
+            }
+
+            h2 {
+                font-size: 1.8em;
+            }
+
+            p, ul li {
+                font-size: 1em;
+            }
+        }
+    </style> 
+    
+</head>
+<body>
+     <header>
+        <div class="logo">
+            <!-- <h1>Partners Perfumes Importados</h1> -->
+            <a href="./index.html"><img src="./produtos/logo.png" alt=""></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li style="cursor: pointer">
+                    <div class="dropdown">
+                        <a data-bs-toggle="dropdown" aria-expanded="false">
+                            Produtos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./produtos/pefume_feminino.html">Femininos</a></li>
+                            <li><a href="./produtos/perfumes_masculinos.html">Masculino</a></li>
+                            <li><a href="./produtos/perfume_arabes.html">Arabe</a></li>
+                            <li><a href="./produtos/decantes.html">Decantes</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="missao" class="section">
+        <div class="container">
+            <h2>Missão</h2>
+            <p> Oferecer aos nossos clientes uma experiência única de compra de perfumes importados e árabes, com fragrâncias exclusivas e de alta qualidade, para que cada pessoa encontre o perfume que reflete sua personalidade e estilo. Priorizamos o atendimento personalizado e a entrega rápida, sempre com carinho e confiança.</p>
+        </div>
+    </section>
+
+    <section id="visao" class="section">
+        <div class="container">
+            <h2>Visão</h2>
+            <p>Ser o e-commerce líder em perfumes importados e árabes, reconhecido pela variedade, qualidade e pelo cuidado com nossos clientes. Queremos levar o poder das fragrâncias para o dia a dia de todos, tornando a compra online simples e prazerosa.</p>
+        </div>
+    </section>
+
+    <section id="valores" class="section">
+        <div class="container">
+            <h2>Valores</h2>
+            <ul>
+                <li><strong>Qualidade: Só trabalhamos com perfumes autênticos e de alto padrão.</strong> </li>
+                <li><strong>Diversidade: Temos fragrâncias para todos os gostos e estilos.</strong> </li>
+                <li><strong>Atendimento: Nosso compromisso é com a sua satisfação, sempre.</strong> </li>
+                <li><strong>Transparência: Valorizamos a honestidade em cada passo da sua jornada de compra.</strong> </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p> 2024 Partners Perfumes Importados </p>
+            <div class="reference">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Função para destacar a seção clicada
+        function highlightSection(sectionId) {
+            // Remove a classe 'highlight' de todas as seções
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('highlight');
+            });
+
+            // Adiciona a classe 'highlight' na seção selecionada
+            const selectedSection = document.getElementById(sectionId);
+            selectedSection.classList.add('highlight');
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
